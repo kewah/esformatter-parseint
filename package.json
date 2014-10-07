@@ -1,0 +1,35 @@
+{
+  "name": "esformatter-parseint",
+  "version": "0.0.1",
+  "description": "esformatter plugin that adds the radix parameter to parseInt",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec",
+    "watch": "./node_modules/mocha/bin/mocha --watch --reporter spec"
+  },
+  "keywords": [
+    "esformatter",
+    "plugin",
+    "parseint",
+    "radix"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Antoine Lehurt",
+    "email": "hello@kewah.com",
+    "url": "http://kewah.com",
+    "twitter": "https://twitter.com/kewah"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kewah/esformatter-parseint"
+  },
+  "dependencies": {
+    "rocambole": "^0.3.6",
+    "rocambole-token": "^1.2.1"
+  },
+  "devDependencies": {
+    "esformatter": "^0.4.2",
+    "mocha": "*"
+  }
+}
