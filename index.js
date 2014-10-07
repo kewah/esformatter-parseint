@@ -12,7 +12,7 @@ function transformBefore(ast) {
 
 function radixParam(node) {
   if (node.type !== 'CallExpression'
-    && (!node.callee || node.callee.name !== 'parseInt')) {
+    || (!node.callee || node.callee.name !== 'parseInt')) {
     return;
   }
 
