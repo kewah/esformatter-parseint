@@ -17,7 +17,7 @@ function radixParam(node) {
   }
 
   if (node.arguments && node.arguments.length === 1) {
-    var radix = tk.after(node.arguments[0].startToken, {
+    var radix = tk.after(node.arguments[0].endToken, {
       value: 10
     });
 
